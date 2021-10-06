@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Xampp
+Comment=Xampp Web Server
+Icon=/opt/lampp/htdocs/favicon.ico
+Exec=/home/vando/.local/share/applications/xampp_start.sh
+Terminal=false
+StartupNotify=false
+Categories=Network
+Actions=Start;Stop;Restart
+[Desktop Action Start]
+Name=Iniciar
+Exec=/home/vando/.local/share/applications/xampp_start.sh
+[Desktop Action Stop]
+Name=Parar
+Exec=/home/vando/.local/share/applications/xampp_stop.sh
+[Desktop Action Restart]
+Name=Reiniciar
+Exec=/home/vando/.local/share/applications/xampp_restart.sh
