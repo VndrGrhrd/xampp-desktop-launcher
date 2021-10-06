@@ -20,7 +20,6 @@ Move all files to the **.local/share/applications** folder located inside the us
 
 
 
-
 # 
 
 
@@ -28,20 +27,20 @@ Move all files to the **.local/share/applications** folder located inside the us
 
 # Atalho para o Xampp Linux
 
-este projeto consiste em adicionar um atalho para o programa xampp no linux ubuntu e derivados que usam os atalhos do programa **. desktop **
+este projeto consiste em adicionar um atalho para o programa xampp no linux ubuntu e derivados que usam os atalhos do programa **. desktop**
 
 
 # Arquivos
 
 existem 2 tipos de arquivos:
-O ** xampp.desktop ** é o próprio atalho
-também existem arquivos sript de shell para executar os comandos xampp services ** start stop e restart **
+O **xampp.desktop** é o próprio atalho.
+Também existem arquivos shell scripts para executar os serviços com os comandos **start  / stop / restart** do xampp  
 
 ## Instalação
-Mova todos os arquivos para a pasta **. Local / share / applications ** localizada dentro da pasta do usuário. Caminho completo: /home/*%userprofile%*/.local/share/applications
+Mova todos os arquivos para a pasta **. Local/share/applications** localizada dentro da pasta do usuário. *Caminho completo: /home/%userprofile%/.local/share/applications*
 
 ## Atenção!
 
-  - É necessário ** inserir a senha do usuário nos arquivos de script de shell **, pois os ** comandos são executados com sudo **
-  - No arquivo ** xampp.desktop **, o item ** Icon = ** faz referência ao caminho do ícone
-  - No arquivo ** xampp.desktop **, os itens ** Exec = ** fazem referência ao caminho para os scripts de shell 
+  - É necessário **inserir a senha do usuário nos arquivos shell scripts**, pois os **comandos são executados com sudo**
+  - No arquivo **xampp.desktop**, o item **Icon=** faz referência ao caminho do ícone
+  - No arquivo **xampp.desktop**, os itens **Exec=** fazem referência ao caminho para os scripts de shell 
